@@ -1,13 +1,7 @@
 # ============================================================
 # agent.py — StyleCart Agentic AI Capstone
 # ============================================================
-# Standalone production module. Import and use the ask()
-# function from this file in the notebook or Streamlit app.
-#
-# Submit this file alongside:
-#   - day13_capstone.ipynb
-#   - capstone_streamlit.py
-# ============================================================
+
 
 import os
 from datetime import datetime
