@@ -1,9 +1,7 @@
 # ============================================================
 # PART 4: GRAPH ASSEMBLY
 # ============================================================
-# Connect all 8 nodes into a LangGraph StateGraph.
-# Compile with MemorySaver for multi-turn conversation memory.
-# ============================================================
+
 
 from langgraph.graph import StateGraph, END
 from langgraph.checkpoint.memory import MemorySaver
