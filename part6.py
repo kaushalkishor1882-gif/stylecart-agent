@@ -1,13 +1,7 @@
 # ============================================================
 # PART 6: RAGAS BASELINE EVALUATION
 # ============================================================
-# Run 5 question-answer pairs through the agent and measure:
-#   - faithfulness       (does the answer use only the context?)
-#   - answer_relevancy   (is the answer relevant to the question?)
-#   - context_precision  (are retrieved chunks actually useful?)
-#
-# Install RAGAS: pip install ragas
-# ============================================================
+
 
 from part4_5 import ask, app
 from part2_3 import embedder, collection
