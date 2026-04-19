@@ -1,9 +1,7 @@
 # ============================================================
 # PART 2: STATE DESIGN
 # ============================================================
-# The CapstoneState TypedDict is the shared object ALL nodes
-# read from and write to. Define this BEFORE any node function.
-# ============================================================
+
 
 from typing import TypedDict, List, Optional
 
@@ -24,8 +22,6 @@ print("✅ Part 2: CapstoneState defined.")
 
 # ============================================================
 # PART 3: NODE FUNCTIONS
-# ============================================================
-# 8 nodes, each does ONE job. Test each individually first.
 # ============================================================
 
 import os
