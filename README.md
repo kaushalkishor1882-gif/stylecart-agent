@@ -1,7 +1,3 @@
-✅ FINAL CORRECTED README (Use this version)
-
-Just replace yours with this 👇
-
 # 🛍️ StyleCart AI Customer Support Agent
 
 ## 📌 Overview
@@ -9,7 +5,7 @@ The StyleCart AI Customer Support Agent is an intelligent chatbot built using **
 
 The system uses **LangGraph** to create a multi-step reasoning workflow and ensures responses are **accurate, grounded, and reliable** using Retrieval-Augmented Generation (RAG).
 
----
+
 
 ## 🎯 Problem Statement
 E-commerce platforms receive a large number of repetitive customer queries daily. Handling these manually is time-consuming and inefficient.
@@ -19,7 +15,7 @@ This project aims to build an AI-powered assistant that:
 - Provides accurate answers from company policies  
 - Reduces workload on human agents  
 
----
+
 
 ## 💡 Solution
 The solution is a **LangGraph-based AI agent** that:
@@ -29,7 +25,6 @@ The solution is a **LangGraph-based AI agent** that:
 - Uses tools (date/time) when needed  
 - Evaluates its own answers to prevent hallucination  
 
----
 
 ## ⚙️ Features
 
@@ -41,7 +36,7 @@ The solution is a **LangGraph-based AI agent** that:
 - 🖥️ **Streamlit UI** for interactive chat  
 - 🚫 **No Hallucination Policy** (Strict grounding to context)  
 
----
+
 
 ## 🏗️ Architecture
 
@@ -59,8 +54,6 @@ Evaluation Node (Faithfulness Check)
 Save Node → Response
 
 
----
-
 ## 🧰 Tech Stack
 
 - **Programming Language:** Python  
@@ -70,7 +63,6 @@ Save Node → Response
 - **Embeddings:** SentenceTransformers (all-MiniLM-L6-v2)  
 - **Frontend:** Streamlit  
 
----
 
 ## 📂 Project Structure
 
@@ -84,8 +76,6 @@ StyleCart_Project/
 ├── part6.py
 ├── README.md
 
-
----
 
 ## ▶️ How to Run
 
@@ -104,8 +94,6 @@ set GROQ_API_KEY=your_api_key_here
 streamlit run capstone_streamlit.py
 
 
----
-
 ## 🧪 Testing
 
 The project includes:
@@ -113,7 +101,6 @@ The project includes:
 - ✅ Red-team tests (out-of-scope & prompt injection)  
 - ✅ Memory test (multi-turn conversation)  
 
----
 
 ## 📊 Evaluation
 
@@ -124,7 +111,6 @@ The system is evaluated using:
 
 (RAGAS framework used for evaluation)
 
----
 
 ## ⭐ Unique Features
 
@@ -133,7 +119,6 @@ The system is evaluated using:
 - 🔒 Strict grounding (no external knowledge)  
 - 🏬 Real-world e-commerce use case  
 
----
 
 ## 🔮 Future Improvements
 
@@ -142,15 +127,12 @@ The system is evaluated using:
 - 📦 Real-time order tracking API  
 - 🎤 Voice-based assistant  
 
----
 
 ## 👤 Author
 
 **Kaushal Kishor**  
 Roll Number: **23051597**  
 Agentic AI Capstone Project – 2026  
-
----
 
 ## 📌 Note
 This project is developed as part of the **Agentic AI Capstone Project** and demonstrates practical implementation of LLM-based intelligent agents using modern AI frameworks.
