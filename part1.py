@@ -1,8 +1,5 @@
 # ============================================================
-# PART 1: KNOWLEDGE BASE — StyleCart E-Commerce FAQ Agent
-# ============================================================
-# Run this file first to verify ChromaDB retrieval works
-# before building any nodes or graph.
+# KNOWLEDGE BASE — StyleCart E-Commerce FAQ Agent
 # ============================================================
 
 from sentence_transformers import SentenceTransformer
