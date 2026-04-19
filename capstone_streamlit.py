@@ -1,14 +1,3 @@
-# ============================================================
-# PART 7: STREAMLIT UI — capstone_streamlit.py
-# ============================================================
-# Run with: streamlit run capstone_streamlit.py
-#
-# IMPORTANT:
-# - All heavy initialisation goes inside @st.cache_resource
-# - st.session_state stores messages and thread_id
-# - encoding='utf-8' is required when writing this file on Windows
-# ============================================================
-
 import streamlit as st
 import uuid
 from datetime import datetime
